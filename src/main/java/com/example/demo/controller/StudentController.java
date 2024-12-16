@@ -8,4 +8,9 @@ public class StudentController {
         
     }
 
+    @PostMapping("/get-string")
+    public String getString(){
+        return "string";
+    }
+
 }
